@@ -1,0 +1,54 @@
+section.geen_dimensies{
+    background-color: yellow;
+    text-align: center;
+}
+
+section.absolute_dimensies {
+    background-color: aqua;
+    width: 600px;
+    height: 5cm;
+    text-align: center;
+}
+
+section.langs_elkaar {
+    float: left;/* Door links uitlijnen verdwijnt margin van section. Terug manueel invoeren. */
+    margin-top: 10px; 
+
+    background-color: tan;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+
+    border: 3px;
+	border-style: solid;
+	border-color: black; 
+    
+}
+
+section.procent_1 {
+    float: left;/* Door links uitlijnen verdwijnt margin van section. Terug manueel invoeren. */
+    margin: 10px;
+    
+    background-color: chartreuse;
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+
+section.procent_2 {
+    float: right;/* Door rechts uitlijnen verdwijnt margin van section. Terug manueel invoeren. */
+    margin: 10px;
+
+    float:right;
+    background-color: chartreuse;
+    width: 40%;
+    text-align: center;
+}
+
+article {
+    float: left;
+    background-color: tan;
+    width: 50%;
+    height: 100px;
+}
+

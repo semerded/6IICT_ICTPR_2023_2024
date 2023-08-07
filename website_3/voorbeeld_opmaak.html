@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang=nl>
+
+<head>
+	<meta charset=utf-8>
+	<meta name="robots" content="all">
+	<link rel="stylesheet" type="text/css" href="opmaak/style_opmaak.css">
+	<title>Width en Height voorbeelden</title>
+</head>
+
+<body>
+	<section class="geen_dimensies">
+        <p>Dit is een sectie over de hele breedte van de pagina. width en height zijn niet opgegeven. Browser pakt de breedte van het hele scherm en de hoogte van de tekst.</p>
+    </section>
+
+    <section class="absolute_dimensies">
+        <p>Dit is een sectie over met width = 600px en height = 5 cm. <br> Kleur gaat verder dan tekst omdat height is opgegeven.</p>
+    </section>
+
+    <section class="langs_elkaar">
+    </section>
+    <section class="langs_elkaar">
+        <p>Je kan verschillende secties links uitlijnen en vervolgens langs elkaar zetten. Ieder van deze secties is 30% van het scherm.</p>
+    </section>
+    <section class="langs_elkaar">
+    </section>
+
+    <section class="procent_1">
+        <p>Dit is een linksuitgelijnde sectie met width = 50% van moederelement. Moederelement is het scherm.</p>
+    </section>
+
+    <section class="procent_2">
+        <p>Dit is een rechtsuitgelijnde sectie met width = 40% van "moeder"-element. "Moeder"-element is het scherm.</p>
+        <article>
+            <p> Dit is een linksuitgelijnd artikel. De width = 50% van het "moeder-element. "Moeder"-element is de rechtsuitgelijnde sectie. </p>
+        </article>
+        <p> Hoogte van sectie past zich automatisch aan de inhoud aan. <br> Dit omdat height niet in de css is opgegeven. <br> <br> Tekst in section positioneert zich zodat het <br> om het artikel heen kan.</p>
+        <p> Eenmaal voorbij het artikel gaat het terug over de hele lengte van de section verder.</p>
+    </section>
+
+</body>    
+</html>
