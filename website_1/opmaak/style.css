@@ -1,0 +1,60 @@
+/* Gebruik komma's om dezelfde stijlkenmerken toe te wijzen aan meerdere selectoren. */
+header, nav, footer, article { 
+    font-family: Trebuchet, Trebuchet MS, Verdana;
+    
+}
+
+header, footer {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    clear: both
+}
+
+body {
+    background-image: url("../afbeeldingen/achtergrond.jpg");
+    background-size: cover;
+}
+
+nav {
+    float: left;
+    width: 15%;
+    position: absolute;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    float: right;
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #64F5E6;
+    text-align: center;
+    /* lichtblauw */
+}
+
+.menu {
+    display: block;
+    width: 70px;
+    background-color: #64F5E6;
+    /* lichtblauw */
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+.menu:hover {
+    background-color: black;
+    color: #64F5E6;
+    /* lichtblauw */
+}
