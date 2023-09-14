@@ -2,114 +2,269 @@
 <html lang="dutch">
 
 <head>
-  <title>Blog 6IICT</title>
-  <meta charset="utf-8" />
-  <meta name="generator" content="Pelican" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link
-    href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
-    rel='stylesheet' type='text/css'>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="opmaak/style.css" />
+    <title>Blog 6IICT</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="opmaak/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 
-<body id="index" class="home">
+<body>
 
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://www.mosa-rt.be">
-        <img src="https://mosart-6iict-gip.surge.sh/theme/img/logol0.svg" width="112" height="28" />
-      </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand ps-3" href="#"><img src="afbeeldingen/logo.svg" width="120"></a>
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <!-- Vul aan met link naar website GIP-->
-        <a class="navbar-item" href="/">Link naar website project</a>
-
-
-      </div>
-      <div class="navbar-end">
-        <a class="navbar-item" href="https://www.instagram.com/mosart.ruimtevoortalent" target="_blank">
-          <i class="icon icon-instagram"></i>
-        </a>
-        <a class="navbar-item" href="https://www.facebook.com/sgmosart/" target="_blank">
-          <i class="icon icon-facebook"></i>
-        </a>
-        <a class="navbar-item"
-          href="https://www.linkedin.com/school/katholiek-secundair-onderwijs-mosa-rt/?viewAsMember=true"
-          target="_blank">
-          <i class="icon icon-linkedin"></i>
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <section class="section spacing">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered is-multiline">
-        <div class="column is-10">
-          <h3 class="has-text-centered semibold title">Blog *project*</h3>
-          <p class="has-text-centered has-text-grey subtitle mb"> *naam leerling*</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-expanded="false" aria-controls="collapseExample">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Een link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Een andere link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nog een andere link</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Een laatste link</a></li>
+            </ul>
+            <ul class="navbar-nav sm-icons mr-0 pe-3">
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/sgmosart/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/mosart.ruimtevoortalent"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/school/katholiek-secundair-onderwijs-mosa-rt/?viewAsMember=true"><i class="fab fa-twitter"></i></a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered is-multiline">
+    <!-- Hoofding -->
+    <div class="container-fluid pt-2 pb-4" style="background-color: #F2F2F2;">
+        <h1 class="text-center">The Future Farm</h1>
+        <h5 class="text-center text-secondary">Een blog van 6IICT</h5>
+
+    </div>
+
+    <!-- Links naar de 3 onderdelen van de blog -->
+    <div class="container-fluid pb-4" style="background-color: #F2F2F2;">
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="afbeeldingen/placeholder.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Visualisatie</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sunt!</p>
+                        <a href="#visualisatie" class="btn btn-dark">Bekijk de posts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="afbeeldingen/placeholder.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Hardware</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sunt!</p>
+                        <a href="#hardware" class="btn btn-dark">Bekijk de posts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="afbeeldingen/placeholder.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Software</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, sunt!</p>
+                        <a href="#software" class="btn btn-dark">Bekijk de posts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+
+    <!-- Blogposts van Visualisatie -->
+    <main class="container-fluid pt-2" id="visualisatie" style="background-color: #F2F2F2;">
+        <!-- Hoofding van onderdeel Visualisatie -->
+        <div class="col-md-12">
+            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                <div class="col-md-10 px-0">
+                    <h1 class="display-4 fst-italic">Visualisatie</h1>
+                    <p class="lead my-3">Schrijf in het kort wat je in dit onderdeel doet + wie eraan werkt.</p>
+                </div>
+            </div>
+        </div>
+      
+        <!-- Post met Thumbnail -->
+        <div class="row mb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                    <div class="col-auto d-none d-md-block my-auto me-3"> <!-- md bepaald wanneer afbeelding verdwijnt. Zie hier voor andere opties: https://getbootstrap.com/docs/4.0/layout/grid/#grid-options  -->
+                        <img class="card-img-top " src="afbeeldingen/placeholder.png" width="100%" alt="Card image cap">
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <!-- Post zonder Thumbnail -->
+        <div class="row pb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </main>
+
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+
+    <!-- Blogposts van Hardware -->
+    <main class="container-fluid" id="hardware" style="background-color: #F2F2F2;">
+        <!-- Hoofding van onderdeel Hardware -->
+        <div class="col-md-12">
+            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                <div class="col-md-10 px-0">
+                    <h1 class="display-4 fst-italic">Hardware</h1>
+                    <p class="lead my-3">Schrijf in het kort wat je in dit onderdeel doet + wie eraan werkt.</p>
+                </div>
+            </div>
+        </div>
         
-        <!-- Zorg ervoor dat de meest recente blogpost bovenaan staat! -->
-        <!-- Start blogpost (copy-past tussen start & eind om een nieuw blogpost toe te voegen). -->
-        <div class="column is-8 card mb-6 blogpost">
-          <div class="card-content">
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <h3 class="has-text-centered semibold title">Titel-blogpost</h3>
-                <p class="has-text-centered has-text-grey subtitle">
-                  Datum</p>
-              </div>
-            </div>
-            <div class="content">
-              <p>Inhoud blogpost.</p>
-            </div>
-          </div>
+        <!-- Post met Thumbnail -->
+        <div class="row mb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                    <div class="col-auto d-none d-md-block my-auto me-3"> <!-- md bepaald wanneer afbeelding verdwijnt. Zie hier voor andere opties: https://getbootstrap.com/docs/4.0/layout/grid/#grid-options  -->
+                        <img class="card-img-top " src="afbeeldingen/placeholder.png" width="100%" alt="Card image cap">
+                    </div>
+                </div>
+            </div>  
         </div>
-        <!-- Eind blogpost -->
 
-        <div class="column is-8 card mb-6 blogpost">
-          <div class="card-content">
-            <div class="columns">
-              <div class="column is-10 is-offset-1">
-                <h3 class="has-text-centered semibold title">Titel-blogpost</h3>
-                <p class="has-text-centered has-text-grey subtitle">
-                  Datum</p>
-              </div>
-            </div>
-
-            <div class="content">
-              <p>Inhoud blogpost.</p>
-            </div>
-          </div>
+        <!-- Post zonder Thumbnail -->
+        <div class="row pb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                </div>
+            </div>  
         </div>
-      </div>
+    </main>
+
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+    <!-- ################################################ -->
+
+    <!-- Blogposts van Software -->
+    <main class="container-fluid" id="software" style="background-color: #F2F2F2;">
+        <!-- Hoofding van onderdeel Software -->
+        <div class="col-md-12">
+            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                <div class="col-md-10 px-0">
+                    <h1 class="display-4 fst-italic">Software</h1>
+                    <p class="lead my-3">Schrijf in het kort wat je in dit onderdeel doet + wie eraan werkt.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Post met Thumbnail -->
+        <div class="row mb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                    <div class="col-auto d-none d-md-block my-auto me-3"> <!-- md bepaald wanneer afbeelding verdwijnt. Zie hier voor andere opties: https://getbootstrap.com/docs/4.0/layout/grid/#grid-options  -->
+                        <img class="card-img-top " src="afbeeldingen/placeholder.png" width="100%" alt="Card image cap">
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <!-- Post zonder Thumbnail -->
+        <div class="row pb-2 justify-content-center">
+            <div class="col-md-10">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Auteur(s)</strong>
+                        <h3 class="mb-0">Titel van blog</h3>
+                        <div class="mb-1 text-muted">Datum</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ex architecto nobis quas dolor placeat dignissimos. Blanditiis accusamus amet consequuntur itaque recusandae, vero adipisci hic repellat, soluta minus suscipit, error rem molestiae in. Praesentium corporis quis assumenda doloremque aliquid. Reiciendis perspiciatis possimus vel? Eveniet aperiam tempora illum placeat delectus doloribus.</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </main>
 
 
-    </div>
-  </section>
+    <!-- Footer -->
+    <footer class="text-center text-white bg-dark p-3">  
+        Geef hier een disclaimer over het project. Bijvoorbeeld over de samenwerking.
+    </footer>
 
-  <footer id="contentinfo" class="footer">
-    <address id="about" class="vcard body">
-      Powered by <a href="https://bulma.io/">Bulma</a> and <a href="https://getbootstrap.com/">Bootstrap</a>
-    </address><!-- /#about -->
-  </footer><!-- /#contentinfo -->
+
+    <!-- Terug naar boven knop -->
+    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top" style="position:fixed;bottom:20px;right:20px;display:none"><i class="fas fa-arrow-up"></i></button>
+    <!-- JS voor terug naar boven knop -->
+    <script>
+        // Zoek de knop 
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // Als de gebruiker scrolt, roep de functie 'scrollFunction' op
+        window.onscroll = function () {
+        scrollFunction();
+        };
+
+        // Als gebruiker > 20px naar beneden is gegaan. Maak de terug-naar-boven knop zichtbaar.
+        function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // Als gebruiker op knop duwt, voer functie 'backToTop' uit.
+        mybutton.addEventListener("click", backToTop);
+
+        // Zet de gebruiker terug naar boven (0px) via een scrollanimatie.
+        function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 </body>
 
 </html>

@@ -2,9 +2,7 @@ body {
     font-family: Roboto;
   }
   
-  section {
-      background-color: rgb(242, 242, 242);
-  }
+ 
   
   .pagination a {
       background-color: #8fd300;
