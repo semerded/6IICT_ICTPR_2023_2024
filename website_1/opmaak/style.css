@@ -4,43 +4,97 @@ header, nav, footer, article {
     
 }
 
+* {
+    border-radius: 10px;
+    transition: 400ms;
+}
+
 header, footer {
-    margin-left: -8px;
-    margin-right: -8px;
     background-color: none;
-    color: white;
-    padding: 5px;
+    color: black;
     text-align: center;
     clear: both
 }
 
+header {
+    background-image: url("../afbeeldingen/achtergrond.webp");
+    background-size: cover;
+    background-position-y: center;
+    margin: 0px;
+    border-radius: 0px;
+    
+}
+
+header h1 {
+    color: #64F5E6;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0px;
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    border-radius: 0px;
+}
+#balk_blauw {
+    width: 100%;
+    height: 5px;
+    background-color: #1500ff;
+    border-radius: 0px;
+}
+
+
+#balk_wit {
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
 body {
     background-image: url("../afbeeldingen/achtergrond.jpg");
-    background-size: cover;
+    background-size: auto;
+    background-color: white;
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
 }
 
 nav {
     float: left;
-    width: 15%;
+    width: max-content;
     position: absolute;
     text-align: center;
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+
+
 article {
     float: right;
-    width: 85%;
+    width: calc(100% - 150px);
     margin: 10px;
     padding: 10px;
     background-color: #64F5E6;
     text-align: center;
     /* lichtblauw */
 }
+
+#foto_article, #foto_article img {
+    background-color: #64F5E6;
+    opacity: 1;
+}
+
+
+
+#foto_article:hover, #foto_article img:hover {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0.4;
+}
+
 
 .menu {
     display: block;
