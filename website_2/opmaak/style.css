@@ -87,9 +87,17 @@ blockquote {
 }
 
 p:hover, h2:hover, h3:hover, li:hover {
-	color: red;
+	color: blue;
 }
 
 blockquote:hover {
 	color: blue;
+}
+
+.colorShiftOnHover {
+	display: inline;
+	color: black;
+}
+.colorShiftOnHover:hover {
+	color: red
 }
