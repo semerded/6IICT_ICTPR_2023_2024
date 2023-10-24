@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-image: url("../afbeeldingen/bibliografie.jpg");
+    height: 20vh;
+
+}
+
+#background {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 20vh;
+}
+header h1 {
+    font-size: 50px;
+    padding-top: 5vh;
+    color: aliceblue;
+}
+
+header p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#home {
+    float: right;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 10vw;
+}
+
+img {
+    
+    width: 97vw;
+    margin: 10px;
+}
